@@ -4,6 +4,16 @@ class Finder:
         self.str_list = str_list
 
     def is_anagram(self, substring, string, ignore_case):
+        """
+            Checks if string is anagram to another
+
+            Args:
+                substring(str): input substring.
+                string(str): sting from Finder str_list.
+                ignore_case(bool): optional Boolean to ignore case.
+            Returns:
+                Boolean
+        """
         if ignore_case:
             sorted_str = ''.join(sorted(string.lower()))
             sorted_substr = ''.join(sorted(substring.lower()))
