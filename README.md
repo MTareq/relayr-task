@@ -1,6 +1,9 @@
 ### Requirements
 - `pytest`
 
+### Installation
+- `pip install pytest`
+
 ### Usage
 
 using the spec in the Task description.
@@ -36,4 +39,7 @@ in the root directory run `pytest -v`
 - 1k-100k in legnth initial list
 - 100k, 500k, 1M runs of Finder.find that runs on less than 2, 10, 20 seconds respectively
 
-
+#### Q: Why pytest?
+  * Less work than unittest
+  * more features than unittest
+  * i like pytest fixtures, that i almost use them excessively. 
