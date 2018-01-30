@@ -25,6 +25,14 @@ class Finder:
         return False
 
     def find(self, substring, ignore_case=False):
+        """
+            Find if substring exists in the intial str_list regardless of charectar order
+            Args:
+                substring(str): input substring.
+                ignore_case(bool): optional Boolean to ignore case.
+            Returns:
+                Boolean
+        """
         results = []
         if type(substring) is not str:
             print('Error: Invalid Type passed to finder {}'.format(substring))
